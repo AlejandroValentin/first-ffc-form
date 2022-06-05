@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4400ff; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #7a0297; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a200ff; 
+}
+
+header {
+  text-align: center;
+ font-family: 'Bebas Neue', cursive;
+}
+
+form {
+  margin: auto;
+  width: 30vh;
+  min-width: 300px;
+  max-width: 500px;
+padding: 70px;
+background: linear-gradient(45deg, blue, red);
+color: hsl(0, 100%, 95%);
+border-radius: 25px;
+box-shadow: 0 0 10px 2px black;
+text-align: left;
+}
+
+.input-label {
+display: inline-flex;
+margin: 10px 0;
+color: rgb(255, 255, 255);
+background-color: #f18ceccb;
+border: none;
+border-radius: 10px;
+}
+
+body {
+  background: linear-gradient(180deg, blue, red);;
+  color: rgba(245, 195, 235, 0.904);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+::placeholder {
+  color: rgb(87, 2, 76);
+}
+
+#number {
+  width: 266px;
+}
+
+.title-fieldset {
+  color: rgb(158, 154, 154);
+}
+
+.input-radio {
+  display: inline-flex;
+  align-items: center;
+}
+
+.submit-button {
+   /* display: block; */
+  /* width: 100%; */
+  padding: 10px 60px;
+  background: red;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin: 20px 50px;
+}
+
+#comment {
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: white;
+}
+
+.form-group {
+ 
+}
+
+.input-checkbox, .input-radio {
+  display: block;
+  margin-right: 0.625rem;
+  margin-left: -40px;
+  margin-bottom: -25px;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+  box-shadow: 0 0 5px 0.5px black;
+  background-color: hsl(0, 5%, 88%);
+}
+
+.checkbox-label {
+  text-align: center;
+}
+
+.textarea-p {
+  margin: 20px;
+}
+
+#mostLike, .form-control {
+  background-color:purple;
+  border: solid 1px pink;
+  color: white;
+}
+
